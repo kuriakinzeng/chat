@@ -9,8 +9,13 @@
     <meta name="description" content="A hello world bot using weback. A conversational UI built using BotUI.">
   </head>
   <body>
-    <div class="botui-app-container" id="hello-world">
+    <div class="botui-app-container" id="chatbot" ref="chatbot">
       <bot-ui></bot-ui>
+    </div>
+    <div id="activate-btn" class="botui-app-container">
+        <!-- <button @mousedown="start" @mouseup="stop"> -->
+          <img src="mic.png" width="64px" @mousedown="start" />
+        <!-- </button> -->
     </div>
     <script src="./build.js"></script>
   </body>

@@ -9,7 +9,6 @@
     "botui": "^0.3.3",
     "dotenv": "^5.0.1",
     "dotenv-webpack": "^1.5.5",
-    "speechkitt": "^1.0.0",
     "vue": "^2.4.2",
     "vue-axios": "^2.1.1"
   },
